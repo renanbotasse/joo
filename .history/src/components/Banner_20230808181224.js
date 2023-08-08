@@ -5,8 +5,7 @@ import Image from '../assets/avatar.png';
 // icons
 import { FaInstagram, FaTiktok, FaTwitch, FaTwitter } from 'react-icons/fa';
 
-// type animation
-import { TypeAnimation } from 'react-type-animation';
+
 
 // motion
 import { motion } from 'framer-motion';
