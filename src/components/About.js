@@ -12,6 +12,8 @@ import { motion } from 'framer-motion';
 // variant
 import { fadeIn } from '../variants'; 
 
+import { Link } from 'react-scroll';
+
 
 const About = () => {
   const [ref, inView] = useInView({
@@ -28,7 +30,7 @@ const About = () => {
           initial='hidden'
           whileInView={'show'}
           viewport={{once: false, amount: 0.3}}
-          className='flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top'>
+          className='flex-1 bg-about bg-container bg-no-repeat h-[640px] mix-blend-lighten bg-center'>
         </motion.div>
         {/* text */}
         <motion.div 
@@ -80,9 +82,23 @@ Há mais de duas décadas, sou entusiasta do RPG, atuando como narradora em emoc
           </div>
           <div className='flex gap-x-8 items-center'>
             <button className='btn btn-lg'>
-              Contato
+            <Link
+          to='contact'
+          activeClass='active'
+          smooth={true}
+          spy={true}
+          className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
+         Contato
+        </Link>
             </button>
-            <a href='#' className='text-gradient btn-link'>Serviços</a>
+            <a href='work' className='text-gradient btn-link'>        <Link
+          to='work'
+          activeClass='active'
+          smooth={true}
+          spy={true}
+          className='cursor-pointer w-[80px] h-[80px] flex items-center justify-center'>
+         Serviços
+        </Link></a>
           </div>
         </div>
         </motion.div>

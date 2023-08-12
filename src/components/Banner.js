@@ -14,6 +14,8 @@ import { motion } from 'framer-motion';
 // variants
 import { fadeIn } from '../variants';
 
+import { Link } from 'react-scroll';
+
 const Banner = () => {
   return (
     <section className='min-h-[85vh] lg:min-h-[78vh] flex items-center' id='home'>
@@ -67,22 +69,38 @@ const Banner = () => {
                         viewport={{ once: false, amount: 0.7 }} 
             className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
               <button className='btn btn-lg'>
-                Serviços
+              <Link
+          to='work'
+          activeClass='active'
+          smooth={true}
+          spy={true}
+          className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
+           Serviços
+        </Link>
               </button>
-              <a href='#' className='text-gradient btn-link'>Conteúdo</a>
+              <button className='btn btn-lg'>
+              <Link
+          to='services'
+          activeClass='active'
+          smooth={true}
+          spy={true}
+          className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
+            Conteúdo
+        </Link>
+               </button>
             </motion.div>
             {/* socials */}
             <div className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
-              <a href='#'>
+              <a href='https://www.instagram.com/jooanadart'>
                 <FaInstagram />
               </a>
-              <a href='#'>
+              <a href='https://www.tiktok.com/@jooanadart'>
                 <FaTiktok />
               </a>
-              <a href='#'>
+              <a href='https://twitter.com/jooanadart'>
                 <FaTwitter />
               </a>
-              <a href='#'>
+              <a href='https://www.twitch.tv/jooanadart'>
                 <FaTwitch />
               </a>
             </div>

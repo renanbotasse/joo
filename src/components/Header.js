@@ -3,6 +3,8 @@ import React from 'react';
 // images
 import Logo from '../assets/logo.ico';
 
+import { Link } from 'react-scroll';
+
 const Header = () => {
   return (
     <header className='py-8'>
@@ -14,7 +16,14 @@ const Header = () => {
           </a>
           {/* button */}
           <button className='btn btn-sm'>
-            Contato
+          <Link
+          to='contact'
+          activeClass='active'
+          smooth={true}
+          spy={true}
+          className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
+          Contato
+        </Link>
           </button>
         </div>
       </div>

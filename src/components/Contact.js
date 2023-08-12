@@ -34,22 +34,22 @@ className='container mx-auto'>
     <form className='flex-1'>
    <div>
     <div className='flex text-[30px] p gap-x-6  max-w-max mx-auto lg:mx-0'>
-              <a href='#'> Instagram
+              <a href='https://www.instagram.com/jooanadart/'> Instagram
                 <FaInstagram />
               </a>
               </div>
               <div className='flex text-[30px] p gap-x-6 max-w-max mx-auto lg:mx-0'>
-              <a href='#'> Tiktok
+              <a href='https://www.tiktok.com/@jooanadart'> Tiktok
                 <FaTiktok />
               </a>
               </div>
               <div className='flex text-[30px] p gap-x-6 max-w-max mx-auto lg:mx-0'>
-              <a href='#'>Twitter
+              <a href='https://twitter.com/jooanadart'>Twitter
                 <FaTwitter />
               </a>
               </div>
               <div className='flex text-[30px] p gap-x max-w-max mx-auto lg:mx-0'>
-              <a href='#'> Twitch
+              <a href='https://www.twitch.tv/jooanadart'> Twitch
                 <FaTwitch />
               </a>
               </div>

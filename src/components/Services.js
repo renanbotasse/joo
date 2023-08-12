@@ -9,6 +9,8 @@ import {motion} from 'framer-motion';
 //variants
 import {fadeIn} from '../variants';
 
+import { Link } from 'react-scroll';
+
 // services data
 const services = [
   {
@@ -52,7 +54,16 @@ const Services = () => {
           <h3 className='h3 max-w-[455px] mb-16'>
           Aqui estão alguns dos conteúdos que já produzi 
           </h3>
-          <button className='btn btn-sm'>Serviços</button>
+          <button className='btn btn-sm'>
+          <Link
+          to='work'
+          activeClass='active'
+          smooth={true}
+          spy={true}
+          className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
+          Serviços
+        </Link>
+            </button>
         </motion.div>
         {/* services */}
         <motion.div 
