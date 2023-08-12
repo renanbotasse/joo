@@ -55,13 +55,13 @@ const Services = () => {
           Aqui estão alguns dos conteúdos que já produzi 
           </h3>
           <button className='btn btn-sm'>
-          <Link
+                  <Link
           to='work'
           activeClass='active'
           smooth={true}
           spy={true}
           className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
-          Serviços
+         Serviços
         </Link>
             </button>
         </motion.div>
