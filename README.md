@@ -12,7 +12,7 @@ This project is a personal website, featuring Jooana d'Art, a social media enthu
 
 ## About
 
-I create a platform that introduces you to Jooana d'Art. Learn about her academic journey and the services she offers.
+I create a platform that introduces you to Jooana d'Art. Learn about her academic journey and the services she offers. Using ReactJs and Tailwind.
 
 ## Getting Started
 
