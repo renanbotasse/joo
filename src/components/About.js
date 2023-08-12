@@ -24,14 +24,7 @@ const About = () => {
     <section className='section' id='about' ref={ref}>
       <div className='container mx-auto'>
        <div className='flex-1 flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 h-screen'>
-        {/* img */}
-        <motion.div 
-          variants={fadeIn('right', 0.3)}
-          initial='hidden'
-          whileInView={'show'}
-          viewport={{once: false, amount: 0.3}}
-          className='flex-1 flex bg-about bg-no-repeat h-[400px] mix-blend-lighten bg-bottom'>
-        </motion.div>
+
         {/* text */}
         <motion.div 
          variants={fadeIn('left', 0.7)}
@@ -102,8 +95,18 @@ Há mais de duas décadas, sou entusiasta do RPG, atuando como narradora em emoc
           </div>
         </div>
         </motion.div>
+              {/* img */}
+              <motion.div 
+          variants={fadeIn('right', 0.3)}
+          initial='hidden'
+          whileInView={'show'}
+          viewport={{once: false, amount: 0.3}}
+          className='flex-1 flex bg-about bg-no-repeat h-[400px] mix-blend-lighten bg-bottom'>
+        </motion.div>
       </div>
+      
       </div>
+      
     </section>
   );
 };
