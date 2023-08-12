@@ -36,7 +36,7 @@ const Banner = () => {
               initial="hidden"
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
-              className='mb-6 text-[66px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]'>
+              className='mb-6 text-[40px] lg:text-[40px] font-secondary font-semibold uppercase leading-[2]'>
               <span className='text-white mr-4'>Sou</span>
               <TypeAnimation sequence={[
                 'Narradora',
@@ -49,7 +49,7 @@ const Banner = () => {
                 2000,
               ]}
                 speed={50}
-                className='text-accent'
+                className='text-accent size-sm'
                 wrapper='span'
                 repeat={Infinity}
               />
