@@ -101,7 +101,7 @@ Há mais de duas décadas, sou entusiasta do RPG, atuando como narradora em emoc
           initial='hidden'
           whileInView={'show'}
           viewport={{once: false, amount: 0.3}}
-          className='flex-1 flex bg-about bg-no-repeat h-[400px] mix-blend-lighten bg-bottom'>
+          className='flex flex bg-about bg-no-repeat h-[440px] mix-blend-lighten bg-top'>
         </motion.div>
       </div>
       
